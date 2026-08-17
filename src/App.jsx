@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 const API_URL = "https://studyflow-yvob.onrender.com";
+import "./App.css";
 
 function App() {
   const [activePage, setActivePage] = useState("Dashboard");
