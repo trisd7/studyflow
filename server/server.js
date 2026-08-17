@@ -3,7 +3,7 @@ const cors = require("cors");
 const Database = require("better-sqlite3");
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -79,3 +79,4 @@ app.delete("/api/tasks/:id", (req, res) => {
 app.listen(PORT, () => {
   console.log(`StudyFlow API running on http://localhost:${PORT}`);
 });
+
