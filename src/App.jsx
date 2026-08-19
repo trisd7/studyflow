@@ -703,7 +703,7 @@ function App() {
       <main className="main-content">
         <header className="topbar">
           <div>
-            <p className="greeting">Good afternoon 👋-Dev</p>
+            <p className="greeting">Good afternoon 👋</p>
 
             <h2>{activePage}</h2>
           </div>
