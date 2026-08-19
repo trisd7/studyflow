@@ -1,17 +1,17 @@
-# StudyFlow
+# StudyFlow 📚
 
-StudyFlow is a study management web application designed to help students organize tasks, stay focused, and track their study progress.
+StudyFlow is a student productivity and study-management web application designed to help students organize their studies, manage tasks, stay focused, and track their progress.
 
-## Features
+## ✨ Features
 
 - 📊 **Dashboard** — View an overview of your study activity.
-- ✅ **Tasks** — Create, complete, and delete study tasks.
-- 📚 **Subjects** — Organize your studies by subject.
-- ⏱️ **Focus Timer** — Use focused study sessions to stay productive.
-- 📈 **Progress** — Track your learning and study habits.
-- 🎨 **Responsive UI** — Clean and simple interface for everyday use.
+- ✅ **Task Management** — Create, complete, and delete study tasks.
+- 📚 **Subject Organization** — Organize tasks and study activities by subject.
+- ⏱️ **Focus Timer** — Use focused study sessions to improve productivity.
+- 📈 **Progress Tracking** — Monitor task completion and study progress.
+- 🎨 **Responsive Interface** — Clean and simple interface for everyday use.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - React
@@ -27,16 +27,22 @@ StudyFlow is a study management web application designed to help students organi
 - CORS
 
 ### Deployment
-- Frontend: Render Static Site
-- Backend: Render Web Service
-- Source Control: GitHub
+- GitHub
+- Vercel
 
-## Development Environment
+## 📁 Project Structure
 
-The application can be run locally during development.
-
-### Frontend
-
-```bash
-npm install
-npm run dev
+```text
+studyflow/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── public/
+│
+├── package.json
+├── vite.config.js
+└── README.md
